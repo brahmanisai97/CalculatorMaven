@@ -33,6 +33,6 @@ public class TestCalculator {
 	public void testDivide(){
 		Calculator c1 = new Calculator();
 		double res = c1.divide(40, 4);
-		Assert.assertEquals(10, res);
+		Assert.assertEquals(10.0, res);
 	}
 }
